@@ -1,8 +1,12 @@
 # labTest_client
 
+This app is for a medical lab. This facilitates customers to book a test for themself or there family members. Home sample collection is also available to collect blood sample from home.
+
 **Features of this app** -</br>
 Kotlin</br> 
 MVVM</br>
+Google locations API</br>
+MySQL </br>
 Firebase realtime Database</br>
 Multi-Threading</br>
 Custom Views( almost all the views are custom views to reduce traversal time in layout and measure     pass)</br>
