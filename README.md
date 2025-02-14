@@ -1,6 +1,6 @@
 # labTest_client
 
-Features of this app -</br>
+**Features of this app** -</br>
 Kotlin</br> 
 MVVM</br>
 Firebase realtime Database</br>
@@ -12,7 +12,7 @@ Multilingual app</br>
 **Screenshots from the app**</br>
 </br>
 Below is Welcome Screen</br>
-<img src="welcome_screen_1.png" width="270" height="480"/></br>
+<img src="app screenshots/welcome_screen_1.png" width="270" height="480"/></br>
 </br>
 Below is Welcome screen 2</br>
 <img src="welcome_screen_2.png" width="270" height="480"/></br>
