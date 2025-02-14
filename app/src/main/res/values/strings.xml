@@ -1,0 +1,5 @@
+<resources>
+
+    //format - activity_fragment_parent_child_field
+    <string name="app_name">LabTest_Client</string>
+</resources>

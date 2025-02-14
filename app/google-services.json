@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "545148870995",
+    "firebase_url": "https://appointmentapp-61697-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "appointmentapp-61697",
+    "storage_bucket": "appointmentapp-61697.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545148870995:android:4ba7bf2fe5e7d15fa281a6",
+        "android_client_info": {
+          "package_name": "com.example.labtest_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf0f8FD5U2miU9b3MV9pbzH-kaZ6dWiV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545148870995:android:3316daf45583cf4ea281a6",
+        "android_client_info": {
+          "package_name": "com.example.labtest_client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf0f8FD5U2miU9b3MV9pbzH-kaZ6dWiV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

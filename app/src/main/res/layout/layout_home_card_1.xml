@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.labtest_client.views.TestLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginVertical="20dp"
+    android:paddingHorizontal="6dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="#a0d9ef"
+            android:paddingVertical="12dp">
+
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="150px"
+                android:layout_height="150px"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="लैब टेस्ट"
+                android:textSize="16sp"
+                android:typeface="sans"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lab test"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="#a0d9ef"
+            android:paddingVertical="12dp">
+
+            <ImageView
+                android:id="@+id/img_2"
+                android:layout_width="150px"
+                android:layout_height="150px"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="यकृत"
+                android:textSize="16sp"
+                android:typeface="sans"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="#a0d9ef"
+            android:paddingVertical="12dp">
+
+            <ImageView
+                android:id="@+id/img_3"
+                android:layout_width="150px"
+                android:layout_height="150px"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="मेरा खाता"
+                android:textSize="16sp"
+                android:typeface="sans"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LogIn"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</com.example.labtest_client.views.TestLinearLayout>

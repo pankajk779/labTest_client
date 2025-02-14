@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:text="महत्वपूर्ण अंग"
+        android:textSize="20sp"
+        android:paddingHorizontal="12dp"
+        android:typeface="sans"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textSize="16sp"
+        android:paddingHorizontal="12dp"
+        android:text="महत्वपूर्ण अंग के अनुसार टेस्ट चुने"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.example.labtest_client.views.CustomLayoutOrgans
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp">
+
+            <com.example.labtest_client.CustomView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.example.labtest_client.CustomView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.example.labtest_client.CustomView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.example.labtest_client.views.CustomLayoutOrgans>
+
+        <com.example.labtest_client.views.CustomLayoutOrgans
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <com.example.labtest_client.CustomView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.example.labtest_client.CustomView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.example.labtest_client.CustomView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.example.labtest_client.views.CustomLayoutOrgans>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View All"
+                android:paddingHorizontal="5dp"
+                android:layout_marginHorizontal="50dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.labtest_client.views.CustomLayoutWelcome2 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="bottom|center">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_welcome_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_welcome_2_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="मुख्य पृष्ठ"
+        android:drawableLeft="@drawable/baseline_home_24"
+        android:drawableRight="@drawable/baseline_arrow_white_forward_24"
+        android:background="@drawable/btn_background_black_selector"
+        app:backgroundTint="@null"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="0dp"/>
+</com.example.labtest_client.views.CustomLayoutWelcome2>

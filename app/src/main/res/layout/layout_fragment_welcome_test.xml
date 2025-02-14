@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.labtest_client.views.CustomLinearlayoutWelcome xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.example.labtest_client.views.CustomWelcomeBanner
+        android:id="@+id/cust_welcome_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_features"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="हमारी विशेषताएँ"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/baseline_star_24"
+        android:drawableRight="@drawable/baseline_arrow_forward_24"
+        app:backgroundTint="@null"
+        android:background="@drawable/btn_background_selector"
+        android:transitionName="btn"/>
+</com.example.labtest_client.views.CustomLinearlayoutWelcome>

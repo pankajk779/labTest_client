@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.labtest_client.views.CustomLayoutOrgans xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.labtest_client.CustomView
+        android:id="@+id/cv_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.example.labtest_client.CustomView
+        android:id="@+id/cv_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.example.labtest_client.CustomView
+        android:id="@+id/cv_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</com.example.labtest_client.views.CustomLayoutOrgans>
