@@ -1,5 +1,7 @@
 # labTest_client
 
+https://pankajk779.github.io/labTest_client/
+
 This app is for a medical lab. This facilitates customers to book a test for themself or there family members. Home sample collection is also available to collect blood sample from home.
 
 **Features of this app** -</br>
